@@ -1,0 +1,52 @@
+.cuadro {
+    background-color: gray;
+    text-align: center;
+    /* width: 1200px;*/
+    background: rgba(234, 208, 234, 0.09);
+    background: radial-gradient(circle farthest-corner at center center, rgba(234, 208, 234, 0.09) 0%, #657465 80%);
+    background: -webkit-radial-gradient(circle farthest-corner at center center, rgba(234, 208, 234, 0.09) 0%, #657465 80%);
+    background: -moz-radial-gradient(circle farthest-corner at center center, rgba(234, 208, 234, 0.09) 0%, #657465 80%);
+    box-shadow: 10px 10px 10px grey;
+    border-radius: 10px;
+}
+
+.cuadro2 {
+    border-top: 10px solid rgba(98, 91, 90, 0.74);
+    border-bottom: 10px solid rgba(98, 91, 90, 0.74);
+    margin-top: 10px;
+    line-height: 0
+}
+
+img {
+    display: block;
+    width: 150px;
+    margin-left: auto;
+    margin-right: auto;
+    border: 5px solid #555;
+}
+
+h4 {
+    text-align: center;
+    color: black;
+    font-style: normal;
+    font-size: large;
+}
+
+.centrar-listas {
+    text-align: center;
+}
+
+.centrar-listas h4 {
+    margin-bottom: 10px;
+}
+
+.centrar-listas ul,
+.centrar-listas ol {
+    text-align: left;
+    margin-top: 0;
+    display: inline-block;
+}
+
+p {
+    line-height: 0;
+}
