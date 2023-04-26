@@ -1,0 +1,34 @@
+.contenedor {
+    border: 2px solid #1c1919;
+    width: 800px;
+    height: 500px;
+    display: flex;
+    flex-direction: row-reverse;   
+    margin: auto;
+}
+
+.item {
+    color: white;
+    width: 800px;
+    height: 200px;
+    font-size: 30px;
+    text-align: center;
+    margin-top: 18%;
+}
+
+.item1 {
+    background-color: red;
+}
+
+.item2 {
+    background-color: blue;
+}
+
+.item3 {
+    background-color: green;
+}
+
+.margen-superior {
+    display: block;
+    margin-top: 30%;
+}
