@@ -26,6 +26,9 @@ nav {
 section {
     width: 100%;
     margin: 0 0 0 0;
+    border-top: 2px solid #22201f;
+    border-bottom: 2px solid #22201f;
+    background: #ffffff;
 }
 
 aside {
