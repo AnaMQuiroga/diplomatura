@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Bootstrap</title>
+    <!-- bootstrap   -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
+    <!-- <link rel="stylesheet" href="css/bootstrap-5.2.3-dist.zip">   -->
+    <!--    -->
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg bg-dark">
+        <div class="container-fluid">
+            <a class="navbar-brand text-white" href="#">Bootstrap</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup"
+                aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                <div class="navbar-nav ms-auto">
+                    <a class="nav-link active  text-white" aria-current="page" href="#">Inicio</a>
+                    <a class="nav-link  text-white" href="#">Novedades</a>                
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-12 col-md-4 col-lg-4 col-xl-4">
+                <h2>Formulario de Alumno</h2>
+                <form>
+                    <div class="mb-3">
+                        <label for="Apellido" class="form-label">Apellido</label>
+                        <input type="text" class="form-control" id="Apellido" placeholder="Apellido" autofocus>
+                    </div>
+                    <div class="mb-3">
+                        <label for="Nombre" class="form-label">Nombre</label>
+                        <input type="text" class="form-control" id="Nombre" placeholder="Nombre" autofocus>
+                    </div>
+                    <div class="mb-3">
+                        <label for="text" class="form-label">Correo electrónico</label>
+                        <input type="email" class="form-control" id="email" placeholder="correoelectronico@ejemplo.com" autofocus>
+                    </div>
+                    <div class="mb-3">
+                        <label for="Direccion" class="form-label">Dirección</label>
+                        <textarea class="form-control" id="Direccion" rows="3" style="resize: none;"> </textarea>
+                    </div>
+                    <div class="d-grid gap-2">
+                        <button type="button" class="btn btn-success" data-bs-toggle="tooltip" data-bs-placement="right"
+                            title="Los datos  quedan Guardados en forma permamente">Guardar</button>
+                        <button type="button" class="btn btn-secondary" data-bs-toggle="tooltip"
+                            data-bs-placement="right"
+                            title="Los datos se eliminan para volver a cargar">Limpiar</button>
+                    </div>
+                </form>
+            </div>
+            <div class="col-sm-12 col-md-8 col-lg-8 col-xl-8">
+                <h2 style="text-align: center;">Listado de Carreras </h2>
+                <table class="table table-striped">
+                    <thead>
+                        <tr>
+                            <th>#</th>
+                            <th>Carrera</th>
+                            <th>Cantidad de Alumnos</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>1</td>
+                            <td>Diplomatura en programación web full stack con React JS</td>
+                            <td>600</td>
+                        </tr>
+                        <tr>
+                            <td>2</td>
+                            <td>Professional Full-Stack Developer</td>
+                            <td>1000</td>
+                        </tr>
+                        <tr>
+                            <td>3</td>
+                            <td>Fundamentos de Spring Framework para Java</td>
+                            <td>1500</td>
+                        </tr>
+                        <tr>
+                            <td>4</td>
+                            <td>Curso de Fundamentos de la Programación</td>
+                            <td>1200</td>
+                        </tr>
+                    </tbody>
+                </table>
+
+                <div class="card" style="width: 18rem;">
+                    <img src="img/equipo.jpg" class="card-img-top" alt="fotoequipo">
+                    <div class="card-body">
+                        <p class="card-text">Contamos con diferentes cursos de programación para que te desarrolles,
+                            desde conocimientos básicos para aprender a programar, así como niveles intermedios y
+                            avanzados de múltiples lenguajes y plataformas.</p>
+                    </div>
+                </div>
+
+            </div>
+        </div>     
+</body>
+
+</html>
