@@ -1,0 +1,158 @@
+body {   
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    line-height: 20px;
+}
+
+header {
+    
+    background: #00acff;
+    background: linear-gradient(90deg, #00acff 0%, #b400ff 80%);
+    background: -webkit-linear-gradient(90deg, #00acff 0%, #b400ff 80%);
+    background: -moz-linear-gradient(90deg, #00acff 0%, #b400ff 80%);
+
+    padding: 14px 0;
+}
+
+header h1 {
+    color: rgb(17, 16, 16);
+    font-size: 40px;
+    font-weight: 100;
+    font-style: italic;
+    display: inline-block;
+    position: relative;
+    bottom: 30px;
+    margin-left: 200px;  
+}
+
+img.izquierda {
+  
+    border-radius: 86px 86px 86px 86px;
+    -webkit-border-radius: 86px 86px 86px 86px;
+    -moz-border-radius: 86px 86px 86px 86px;
+    display: inline-block;
+    margin-left: 1%;
+    margin-top: auto;
+}
+
+img.derecha {
+    float: right;
+    margin-right: 6%;   
+    border-radius: 86px 86px 86px 86px;
+    -webkit-border-radius: 86px 86px 86px 86px;
+    -moz-border-radius: 86px 86px 86px 86px;
+}
+
+nav {    
+    background-color: #b400ff;
+    margin-bottom: 20px;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+nav ul li {
+    flex-grow: 1;
+}
+
+nav ul li a {
+    color: #000;
+    text-decoration: none;
+    padding: 3px 6px;
+    display: block;
+    text-align: center;
+}
+
+nav ul li a:hover {
+    /*background-color: rgb(180, 180, 180);*/
+    background-color: rgb(210, 210, 210);
+}
+
+nav ul li a.activo {
+    background-color: rgb(210, 210, 210);
+}
+
+.holder {
+    max-width: 960px;
+    margin:0 auto;
+
+}
+
+footer {
+    background-color: rgb(210, 210, 210);
+    clear: both;
+    color: #333;
+    text-align: center;
+    padding: 5px 0;
+    margin-top: 20px;
+}
+
+h2 {
+    color: #b400ff;
+    font-weight: 400;
+}
+
+/* Inicio reglas para el Home*/
+
+.bienvenidos{
+    width: 75%;
+    padding-right: 10px;
+    box-sizing: border-box;
+}
+
+.envios {
+    width: 20%;
+}
+
+.columnas {
+    display: flex;
+    justify-content: space-between;
+}
+
+.bienvenidos p {
+    font-size: 20px;
+}
+
+.envio {
+    background-color: rgb(210, 210, 210);
+    padding: 16px;
+}
+
+.envio.cita{
+    font-weight: bold;
+    font-style: italic;
+    font-size: 22px;
+    display: block;
+}
+/*Fin reglas para el Home*/
+
+/*Inicio reglas para Nosotros*/
+.historia p{
+    font-size: 12px; /*0.7rem*/
+}
+
+.fechas {
+    display: flex;
+    justify-content: space-between;
+}
+
+.eventos {
+    border: 1px solid #00acff;
+    border-radius: 5px;
+    width: 18%;
+    text-align: center;
+    padding: 13px;
+    box-sizing: border-box;
+}
+
+.fechas img{
+    border-radius: 50%;
+    max-width: 60%;
+    box-shadow:  0 0 5px rgba(0,0,0,0.5);
+}
+
+/*Fin reglas para el Nosotros*/
