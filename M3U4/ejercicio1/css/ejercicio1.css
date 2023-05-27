@@ -1,0 +1,40 @@
+body{
+    display: inline-flex;
+}
+
+.boton {
+    width: 150px;
+    height: 150px; 
+    border: none;
+    margin-left: auto;    
+}
+
+.rojo {    
+    background-color: red;      
+}
+
+.verde {
+    background-color: green;
+}
+
+.azul {
+
+    background-color: blue;
+}
+
+
+
+/*.btn {
+    color: white;
+    width: 100px;
+    height: 500px;
+    font-size: 30px;
+    text-align: center;
+    margin-top: 18%;
+}
+
+
+.btn {
+    display: block;
+    margin-top: 30%;
+}*/

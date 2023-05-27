@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>JavaScript 2 Parte</title>
+  <link rel="stylesheet" href="css/ejercicio1.css">
+</head>
+
+<body>
+  <!--
+Ejercicio 1:Crear un documento html con 3 cuadrados que, al ser clickeados, cambien el color de fondo del documento. Cada cuadrado debera tener un color distinto.
+  -->  
+  <input class="boton rojo" type="button" name="red" value="" onclick="cambia(this)">
+  <input class="boton verde" type="button" name="green" value="" onclick="cambia(this)">
+  <input class="boton azul" type="button" name="blue" value="" onclick="cambia(this)">
+  <script>
+  function cambia(boton){   
+       var color=boton.name;        
+         document.body.style.backgroundColor=color;         
+  }
+  </script>
+
+</body>
+
+</html>

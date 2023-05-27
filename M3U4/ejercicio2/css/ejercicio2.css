@@ -1,0 +1,14 @@
+formulario p{
+    display:flex;
+}
+
+
+.formulario p label{
+   display: flex;
+   align-items: center;	
+}
+
+.formulario textarea{
+   resize: none;
+   height: 150px;
+}
